@@ -88,7 +88,7 @@ if __name__ == "__main__":
             end = j
             break
     min = int(lenth[start:mid])  # min为第一个数字)
-    max = int(lenth[mid + 1:end + 1])  # maxw为第二个数字)
+    max = int(lenth[mid + 1:end + 1])  # maxw为第二个数字)#以上均在处理用户的输入（为了那些任性的用户）
     f = 0
     dianhao = zip_name.index(".")
     leixin = zip_name[dianhao + 1:]
