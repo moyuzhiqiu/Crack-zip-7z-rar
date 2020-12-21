@@ -18,7 +18,6 @@ def jiejue(n):
         book.close()
 #print(os.path.join(os.getcwd(),'123.zip'))
 
- #用户输入文件名称，和密码位数
 def moyu(min,max,zip_name):#zip
     # 暴力破解
     m = 0
@@ -72,7 +71,7 @@ def moniao(min,max,zip_name):#rar
 if __name__ == "__main__":
     print("请输入文件名，包含后缀")
     zip_name = input()
-    print('请输入密码长度（大致估计）例如：（1，5）为1到4（不包含右边）')
+    print('请输入密码长度（大致估计）例如：（1，5）为1到4（不包含右边）') #用户输入文件名称，和密码位数
     lenth = input()
     start = 0
     for i in range(0, len(lenth)):
